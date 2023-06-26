@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GambarFasilitasActivity">
+
+    <ImageView
+        android:id="@+id/imageGym"
+        android:layout_width="320dp"
+        android:layout_height="210dp"
+        android:src="@drawable/gym"
+        android:layout_marginTop="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+    <TextView
+        android:id="@+id/txtGym"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageGym"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:text="Gambar Ruangan Gym GoFit">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/imageKelas"
+        android:layout_width="280dp"
+        android:layout_height="210dp"
+        android:src="@drawable/pilates"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtGym"></ImageView>
+
+    <TextView
+        android:id="@+id/txtKelas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageKelas"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:text="Gambar Ruangan Kelas GoFit"></TextView>
+</androidx.constraintlayout.widget.ConstraintLayout>

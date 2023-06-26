@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Member.Fragment.ProfileMemberFragment">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/user">
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="170dp"
+        android:text="Profile"
+        android:fontFamily="sans-serif-black"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="170dp"
+        android:text="Member"
+        android:fontFamily="sans-serif-black"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="165dp"
+        android:layout_marginLeft="40dp"
+        android:text="Nama Member            : "
+        android:fontFamily="sans-serif-black"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        >
+    </TextView>
+
+    <TextView
+        android:id="@+id/txtNama"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="165dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Joko jokoko"
+        android:textColor="#000000"
+        android:textSize="15dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="40dp"
+        android:text="ID Member                   : "
+        android:fontFamily="sans-serif-black"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        >
+    </TextView>
+
+    <TextView
+        android:id="@+id/txtId"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="210dp"
+        android:fontFamily="sans-serif-light"
+        android:text="1"
+        android:textColor="#000000"
+        android:textSize="15dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="255dp"
+        android:layout_marginLeft="40dp"
+        android:text="Alamat Member          : "
+        android:fontFamily="sans-serif-black"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        >
+    </TextView>
+
+    <TextView
+        android:id="@+id/txtAlamat"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="255dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Jln. Rumah Ins 1"
+        android:textColor="#000000"
+        android:textSize="15dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="295dp"
+        android:layout_marginLeft="40dp"
+        android:text="Tanggal Lahir              : "
+        android:fontFamily="sans-serif-black"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        >
+    </TextView>
+
+    <TextView
+        android:id="@+id/txtTanggalLahir"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="295dp"
+        android:fontFamily="sans-serif-light"
+        android:text="2002-11-30"
+        android:textColor="#000000"
+        android:textSize="15dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="335dp"
+        android:layout_marginLeft="40dp"
+        android:text="Nomor Telepon           : "
+        android:fontFamily="sans-serif-black"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        >
+    </TextView>
+
+    <TextView
+        android:id="@+id/txtNoTelp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="335dp"
+        android:fontFamily="sans-serif-light"
+        android:text="081234567890"
+        android:textColor="#000000"
+        android:textSize="15dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="375dp"
+        android:layout_marginLeft="40dp"
+        android:text="Email Member             : "
+        android:fontFamily="sans-serif-black"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        >
+    </TextView>
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="375dp"
+        android:fontFamily="sans-serif-light"
+        android:text="email@gmail.com"
+        android:textColor="#000000"
+        android:textSize="15dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="415dp"
+        android:layout_marginLeft="40dp"
+        android:text="Tanggal Kadaluarsa  : "
+        android:fontFamily="sans-serif-black"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        >
+    </TextView>
+
+    <TextView
+        android:id="@+id/txtKadaluarsa"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="415dp"
+        android:fontFamily="sans-serif-light"
+        android:text="1000 detik"
+        android:textColor="#000000"
+        android:textSize="15dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="455dp"
+        android:layout_marginLeft="40dp"
+        android:text="Saldo Deposit              : "
+        android:fontFamily="sans-serif-black"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        >
+    </TextView>
+
+    <TextView
+        android:id="@+id/txtDeposit"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="455dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Rp. 100000"
+        android:textColor="#000000"
+        android:textSize="15dp">
+    </TextView>
+
+    <Button
+        android:id="@+id/btnPaket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lihat Paket Kelas"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="500dp"
+        >
+    </Button>
+    <Button
+        android:id="@+id/btnHistoriGym"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Histori Aktivitas Gym"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="560dp"
+        >
+    </Button>
+    <Button
+        android:id="@+id/btnHistoriKelas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Histori Aktivitas Kelas"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="620dp"
+        >
+    </Button>
+</FrameLayout>

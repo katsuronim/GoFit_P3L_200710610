@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Instruktur.Fragment.DashboardInstrukturFragment">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="100dp"
+        android:src="@drawable/dashboard_hello">
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="100dp"
+        android:text="Selamat Datang,"
+        android:fontFamily="sans-serif-black"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="470dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Instruktur"
+        android:textColor="#000000"
+        android:textSize="20dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/namaInstruktur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="470dp"
+        android:text="Joko Jokoko"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#000000"
+        android:textSize="20dp">
+    </TextView>
+</FrameLayout>

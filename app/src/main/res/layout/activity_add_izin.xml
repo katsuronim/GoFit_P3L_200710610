@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Instruktur.AddIzinActivity">
+
+<!--    <Spinner-->
+<!--        android:id="@+id/spinner1"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_marginLeft="10dp"-->
+<!--        android:layout_marginRight="10dp"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        android:background="@android:drawable/btn_dropdown"-->
+<!--        android:spinnerMode="dropdown"/>-->
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        android:layout_margin="20dp"-->
+<!--        android:layout_marginVertical="20dp"-->
+<!--        android:text="Pilih Izin Instruktur Pengganti"-->
+<!--        android:id="@+id/tv_izinInstrukturPengganti"-->
+<!--        android:drawablePadding="5dp"-->
+<!--        android:gravity="center_vertical"-->
+<!--        android:textStyle="bold"/>-->
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:layout_marginStart="10dp"
+        android:gravity="center_vertical"
+        android:text="Input Izin Instruktur"
+        android:textSize="30dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/txt_id_instruktur_pengganti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="10dp"
+        android:hint="Nama Lengkap Intruktur Pengganti Anda"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_title" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txt_id_instruktur_pengganti"
+        android:layout_marginStart="10dp"
+        android:layout_marginVertical="10dp"
+        android:text="Pilih Tanggal Izin"
+        android:id="@+id/tv_tglIzin"
+        android:drawablePadding="5dp"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        app:drawableStartCompat="@drawable/ic_baseline_date_range_24" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:gravity="center_vertical"
+        android:text="Masukkan tanggal izin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.925"
+        app:layout_constraintStart_toEndOf="@id/tv_tglIzin"
+        app:layout_constraintTop_toBottomOf="@id/txt_id_instruktur_pengganti"
+        android:id="@+id/tglIzin_view"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/txt_jamSesiIzin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="10dp"
+        android:hint="Jam Sesi Izin"
+        android:minHeight="48dp"
+        android:textColorHint="#757575"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tglIzin_view"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/txt_alasanIzin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="10dp"
+        android:hint="Alasan Izin"
+        android:minHeight="48dp"
+        android:textColorHint="#757575"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txt_jamSesiIzin" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="84dp"
+        android:text="Simpan Data"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txt_alasanIzin" />
+</androidx.constraintlayout.widget.ConstraintLayout>
